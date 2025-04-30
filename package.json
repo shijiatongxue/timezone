@@ -1,0 +1,24 @@
+{
+  "name": "timezone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:tz": "tsx ./src/tz.ts",
+    "start:dayjs": "tsx ./src/dayjs.ts",
+    "start:luxon": "tsx ./src/luxon.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@date-fns/tz": "^1.2.0",
+    "@types/luxon": "^3.6.2",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "luxon": "^3.6.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.4"
+  }
+}
